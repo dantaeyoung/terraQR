@@ -21,11 +21,29 @@ struct QRCode: View {
     var body: some View {
         
         
-        VStack {
+        HStack {
+            Image(nsImage: qrCodeImage)
+                .resizable()
+                .interpolation(.none)
+                .frame(width: 100.0, height: 100.0)
+            Image(nsImage: qrCodeImage)
+                .resizable()
+                .interpolation(.none)
+                .frame(width: 200.0, height: 200.0)
             Image(nsImage: qrCodeImage)
                 .resizable()
                 .interpolation(.none)
                 .frame(width: 400.0, height: 400.0)
+            Image(nsImage: qrCodeImage)
+                .resizable()
+                .interpolation(.none)
+                .frame(width: 200.0, height: 200.0)
+            Image(nsImage: qrCodeImage)
+                .resizable()
+                .interpolation(.none)
+                .frame(width: 100.0, height: 100.0)
+
+
 
         }
         .onChange(of: dataString) { newDataString in
@@ -34,6 +52,9 @@ struct QRCode: View {
 
                 qrCodeImage = generateQRCode(from: string)
             }
+        }
+        .onAppear {
+            print("qrcodeappearin")
         }
     }
 }

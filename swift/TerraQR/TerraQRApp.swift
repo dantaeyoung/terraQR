@@ -1,3 +1,4 @@
+
 //
 //  TerraQRApp.swift
 //  TerraQR
@@ -10,9 +11,9 @@ import SwiftUI
 @main
 struct TerraQRApp: App {
     var body: some Scene {
-        MenuBarExtra("UtilityApp", systemImage: "hammer") {
+        MenuBarExtra("TerraQR", systemImage: "wand.and.rays") {
             DropdownView()
-        }.menuBarExtraStyle(.window)        
+        }.menuBarExtraStyle(.window)
         WindowGroup {
         }
     }

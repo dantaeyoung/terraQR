@@ -15,6 +15,7 @@
 		725909F729D5114F00644CF2 /* TerraQRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725909F629D5114F00644CF2 /* TerraQRUITests.swift */; };
 		725909F929D5114F00644CF2 /* TerraQRUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725909F829D5114F00644CF2 /* TerraQRUITestsLaunchTests.swift */; };
 		72590A0629D5155300644CF2 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72590A0529D5155300644CF2 /* QRCode.swift */; };
+		72590A0E29D556FC00644CF2 /* OnPasteboardChange in Frameworks */ = {isa = PBXBuildFile; productRef = 72590A0D29D556FC00644CF2 /* OnPasteboardChange */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72590A0E29D556FC00644CF2 /* OnPasteboardChange in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +152,9 @@
 			dependencies = (
 			);
 			name = TerraQR;
+			packageProductDependencies = (
+				72590A0D29D556FC00644CF2 /* OnPasteboardChange */,
+			);
 			productName = TerraQR;
 			productReference = 725909D729D5114C00644CF2 /* TerraQR.app */;
 			productType = "com.apple.product-type.application";
@@ -222,6 +227,9 @@
 				Base,
 			);
 			mainGroup = 725909CE29D5114C00644CF2;
+			packageReferences = (
+				72590A0C29D556FC00644CF2 /* XCRemoteSwiftPackageReference "OnPasteboardChange" */,
+			);
 			productRefGroup = 725909D829D5114C00644CF2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -578,6 +586,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		72590A0C29D556FC00644CF2 /* XCRemoteSwiftPackageReference "OnPasteboardChange" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kyle-n/OnPasteboardChange";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		72590A0D29D556FC00644CF2 /* OnPasteboardChange */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72590A0C29D556FC00644CF2 /* XCRemoteSwiftPackageReference "OnPasteboardChange" */;
+			productName = OnPasteboardChange;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 725909CF29D5114C00644CF2 /* Project object */;
 }

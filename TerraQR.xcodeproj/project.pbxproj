@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		725909DB29D5114C00644CF2 /* TerraQRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725909DA29D5114C00644CF2 /* TerraQRApp.swift */; };
-		725909DD29D5114C00644CF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725909DC29D5114C00644CF2 /* ContentView.swift */; };
+		725909DD29D5114C00644CF2 /* DropdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725909DC29D5114C00644CF2 /* DropdownView.swift */; };
 		725909DF29D5114E00644CF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 725909DE29D5114E00644CF2 /* Assets.xcassets */; };
 		725909E229D5114E00644CF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 725909E129D5114E00644CF2 /* Preview Assets.xcassets */; };
 		725909ED29D5114F00644CF2 /* TerraQRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725909EC29D5114F00644CF2 /* TerraQRTests.swift */; };
 		725909F729D5114F00644CF2 /* TerraQRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725909F629D5114F00644CF2 /* TerraQRUITests.swift */; };
 		725909F929D5114F00644CF2 /* TerraQRUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725909F829D5114F00644CF2 /* TerraQRUITestsLaunchTests.swift */; };
+		72590A0629D5155300644CF2 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72590A0529D5155300644CF2 /* QRCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		725909D729D5114C00644CF2 /* TerraQR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TerraQR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		725909DA29D5114C00644CF2 /* TerraQRApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraQRApp.swift; sourceTree = "<group>"; };
-		725909DC29D5114C00644CF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		725909DC29D5114C00644CF2 /* DropdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownView.swift; sourceTree = "<group>"; };
 		725909DE29D5114E00644CF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		725909E129D5114E00644CF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		725909E329D5114E00644CF2 /* TerraQR.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TerraQR.entitlements; sourceTree = "<group>"; };
@@ -45,6 +46,8 @@
 		725909F229D5114F00644CF2 /* TerraQRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TerraQRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		725909F629D5114F00644CF2 /* TerraQRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraQRUITests.swift; sourceTree = "<group>"; };
 		725909F829D5114F00644CF2 /* TerraQRUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraQRUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		72590A0529D5155300644CF2 /* QRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
+		72590A0B29D54D1C00644CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +98,11 @@
 		725909D929D5114C00644CF2 /* TerraQR */ = {
 			isa = PBXGroup;
 			children = (
+				72590A0B29D54D1C00644CF2 /* Info.plist */,
 				725909DA29D5114C00644CF2 /* TerraQRApp.swift */,
-				725909DC29D5114C00644CF2 /* ContentView.swift */,
+				725909DC29D5114C00644CF2 /* DropdownView.swift */,
 				725909DE29D5114E00644CF2 /* Assets.xcassets */,
+				72590A0529D5155300644CF2 /* QRCode.swift */,
 				725909E329D5114E00644CF2 /* TerraQR.entitlements */,
 				725909E029D5114E00644CF2 /* Preview Content */,
 			);
@@ -259,8 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				725909DD29D5114C00644CF2 /* ContentView.swift in Sources */,
+				725909DD29D5114C00644CF2 /* DropdownView.swift in Sources */,
 				725909DB29D5114C00644CF2 /* TerraQRApp.swift in Sources */,
+				72590A0629D5155300644CF2 /* QRCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +428,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TerraQR/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TerraQR/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,6 +455,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TerraQR/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TerraQR/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		725909DB29D5114C00644CF2 /* TerraQRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725909DA29D5114C00644CF2 /* TerraQRApp.swift */; };
+		725909DD29D5114C00644CF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725909DC29D5114C00644CF2 /* ContentView.swift */; };
+		725909DF29D5114E00644CF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 725909DE29D5114E00644CF2 /* Assets.xcassets */; };
+		725909E229D5114E00644CF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 725909E129D5114E00644CF2 /* Preview Assets.xcassets */; };
+		725909ED29D5114F00644CF2 /* TerraQRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725909EC29D5114F00644CF2 /* TerraQRTests.swift */; };
+		725909F729D5114F00644CF2 /* TerraQRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725909F629D5114F00644CF2 /* TerraQRUITests.swift */; };
+		725909F929D5114F00644CF2 /* TerraQRUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725909F829D5114F00644CF2 /* TerraQRUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		725909E929D5114F00644CF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 725909CF29D5114C00644CF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 725909D629D5114C00644CF2;
+			remoteInfo = TerraQR;
+		};
+		725909F329D5114F00644CF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 725909CF29D5114C00644CF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 725909D629D5114C00644CF2;
+			remoteInfo = TerraQR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		725909D729D5114C00644CF2 /* TerraQR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TerraQR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		725909DA29D5114C00644CF2 /* TerraQRApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraQRApp.swift; sourceTree = "<group>"; };
+		725909DC29D5114C00644CF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		725909DE29D5114E00644CF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		725909E129D5114E00644CF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		725909E329D5114E00644CF2 /* TerraQR.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TerraQR.entitlements; sourceTree = "<group>"; };
+		725909E829D5114F00644CF2 /* TerraQRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TerraQRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		725909EC29D5114F00644CF2 /* TerraQRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraQRTests.swift; sourceTree = "<group>"; };
+		725909F229D5114F00644CF2 /* TerraQRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TerraQRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		725909F629D5114F00644CF2 /* TerraQRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraQRUITests.swift; sourceTree = "<group>"; };
+		725909F829D5114F00644CF2 /* TerraQRUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraQRUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		725909D429D5114C00644CF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725909E529D5114F00644CF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725909EF29D5114F00644CF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		725909CE29D5114C00644CF2 = {
+			isa = PBXGroup;
+			children = (
+				725909D929D5114C00644CF2 /* TerraQR */,
+				725909EB29D5114F00644CF2 /* TerraQRTests */,
+				725909F529D5114F00644CF2 /* TerraQRUITests */,
+				725909D829D5114C00644CF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		725909D829D5114C00644CF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				725909D729D5114C00644CF2 /* TerraQR.app */,
+				725909E829D5114F00644CF2 /* TerraQRTests.xctest */,
+				725909F229D5114F00644CF2 /* TerraQRUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		725909D929D5114C00644CF2 /* TerraQR */ = {
+			isa = PBXGroup;
+			children = (
+				725909DA29D5114C00644CF2 /* TerraQRApp.swift */,
+				725909DC29D5114C00644CF2 /* ContentView.swift */,
+				725909DE29D5114E00644CF2 /* Assets.xcassets */,
+				725909E329D5114E00644CF2 /* TerraQR.entitlements */,
+				725909E029D5114E00644CF2 /* Preview Content */,
+			);
+			path = TerraQR;
+			sourceTree = "<group>";
+		};
+		725909E029D5114E00644CF2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				725909E129D5114E00644CF2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		725909EB29D5114F00644CF2 /* TerraQRTests */ = {
+			isa = PBXGroup;
+			children = (
+				725909EC29D5114F00644CF2 /* TerraQRTests.swift */,
+			);
+			path = TerraQRTests;
+			sourceTree = "<group>";
+		};
+		725909F529D5114F00644CF2 /* TerraQRUITests */ = {
+			isa = PBXGroup;
+			children = (
+				725909F629D5114F00644CF2 /* TerraQRUITests.swift */,
+				725909F829D5114F00644CF2 /* TerraQRUITestsLaunchTests.swift */,
+			);
+			path = TerraQRUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		725909D629D5114C00644CF2 /* TerraQR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 725909FC29D5114F00644CF2 /* Build configuration list for PBXNativeTarget "TerraQR" */;
+			buildPhases = (
+				725909D329D5114C00644CF2 /* Sources */,
+				725909D429D5114C00644CF2 /* Frameworks */,
+				725909D529D5114C00644CF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TerraQR;
+			productName = TerraQR;
+			productReference = 725909D729D5114C00644CF2 /* TerraQR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		725909E729D5114F00644CF2 /* TerraQRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 725909FF29D5114F00644CF2 /* Build configuration list for PBXNativeTarget "TerraQRTests" */;
+			buildPhases = (
+				725909E429D5114F00644CF2 /* Sources */,
+				725909E529D5114F00644CF2 /* Frameworks */,
+				725909E629D5114F00644CF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				725909EA29D5114F00644CF2 /* PBXTargetDependency */,
+			);
+			name = TerraQRTests;
+			productName = TerraQRTests;
+			productReference = 725909E829D5114F00644CF2 /* TerraQRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		725909F129D5114F00644CF2 /* TerraQRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72590A0229D5114F00644CF2 /* Build configuration list for PBXNativeTarget "TerraQRUITests" */;
+			buildPhases = (
+				725909EE29D5114F00644CF2 /* Sources */,
+				725909EF29D5114F00644CF2 /* Frameworks */,
+				725909F029D5114F00644CF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				725909F429D5114F00644CF2 /* PBXTargetDependency */,
+			);
+			name = TerraQRUITests;
+			productName = TerraQRUITests;
+			productReference = 725909F229D5114F00644CF2 /* TerraQRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		725909CF29D5114C00644CF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					725909D629D5114C00644CF2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					725909E729D5114F00644CF2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 725909D629D5114C00644CF2;
+					};
+					725909F129D5114F00644CF2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 725909D629D5114C00644CF2;
+					};
+				};
+			};
+			buildConfigurationList = 725909D229D5114C00644CF2 /* Build configuration list for PBXProject "TerraQR" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 725909CE29D5114C00644CF2;
+			productRefGroup = 725909D829D5114C00644CF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				725909D629D5114C00644CF2 /* TerraQR */,
+				725909E729D5114F00644CF2 /* TerraQRTests */,
+				725909F129D5114F00644CF2 /* TerraQRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		725909D529D5114C00644CF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725909E229D5114E00644CF2 /* Preview Assets.xcassets in Resources */,
+				725909DF29D5114E00644CF2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725909E629D5114F00644CF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725909F029D5114F00644CF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		725909D329D5114C00644CF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725909DD29D5114C00644CF2 /* ContentView.swift in Sources */,
+				725909DB29D5114C00644CF2 /* TerraQRApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725909E429D5114F00644CF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725909ED29D5114F00644CF2 /* TerraQRTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725909EE29D5114F00644CF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725909F929D5114F00644CF2 /* TerraQRUITestsLaunchTests.swift in Sources */,
+				725909F729D5114F00644CF2 /* TerraQRUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		725909EA29D5114F00644CF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 725909D629D5114C00644CF2 /* TerraQR */;
+			targetProxy = 725909E929D5114F00644CF2 /* PBXContainerItemProxy */;
+		};
+		725909F429D5114F00644CF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 725909D629D5114C00644CF2 /* TerraQR */;
+			targetProxy = 725909F329D5114F00644CF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		725909FA29D5114F00644CF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		725909FB29D5114F00644CF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		725909FD29D5114F00644CF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TerraQR/TerraQR.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TerraQR/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.presentenergies.TerraQR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		725909FE29D5114F00644CF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TerraQR/TerraQR.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TerraQR/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.presentenergies.TerraQR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		72590A0029D5114F00644CF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.presentenergies.TerraQRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TerraQR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TerraQR";
+			};
+			name = Debug;
+		};
+		72590A0129D5114F00644CF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.presentenergies.TerraQRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TerraQR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TerraQR";
+			};
+			name = Release;
+		};
+		72590A0329D5114F00644CF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.presentenergies.TerraQRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TerraQR;
+			};
+			name = Debug;
+		};
+		72590A0429D5114F00644CF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.presentenergies.TerraQRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TerraQR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		725909D229D5114C00644CF2 /* Build configuration list for PBXProject "TerraQR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725909FA29D5114F00644CF2 /* Debug */,
+				725909FB29D5114F00644CF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		725909FC29D5114F00644CF2 /* Build configuration list for PBXNativeTarget "TerraQR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725909FD29D5114F00644CF2 /* Debug */,
+				725909FE29D5114F00644CF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		725909FF29D5114F00644CF2 /* Build configuration list for PBXNativeTarget "TerraQRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72590A0029D5114F00644CF2 /* Debug */,
+				72590A0129D5114F00644CF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72590A0229D5114F00644CF2 /* Build configuration list for PBXNativeTarget "TerraQRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72590A0329D5114F00644CF2 /* Debug */,
+				72590A0429D5114F00644CF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 725909CF29D5114C00644CF2 /* Project object */;
+}
